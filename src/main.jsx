@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
         {/* Acá es donde se definen las "Props"
         TEstas se mandan desde el componente padre hacia el componente hijo */}
-        {/* <FirstApp /> */}
+        {/* <FirstApp title='Hola, Soy Vegeta'/> */}
         <CounterApp value={ 10 }/>
     </React.StrictMode>
 );

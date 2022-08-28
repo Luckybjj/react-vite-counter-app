@@ -29,7 +29,7 @@ const [ counter, setCounter ] = useState(value) // value --> valor inicial del c
 
             <button onClick={ handleAdd }> +1 </button>
             <button onClick={ resta }> -1 </button>
-            <button onClick={ reset }> Reset </button>
+            <button aria-label="btn-reset" onClick={ reset }> Reset </button>
         </>
     )
 }
